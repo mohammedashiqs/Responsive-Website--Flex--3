@@ -1,0 +1,162 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    display: flex;
+}
+
+
+/* NAV BAR */
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav h2{
+    color: #fff;
+}
+
+nav ul{
+    list-style: none;
+}
+
+.navbar{
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px 100px ;
+}
+
+nav .menus{
+    gap: 20px;
+}
+
+nav .menus li:last-child a{
+    background-color: #fff;
+    color: #000;
+    padding: 6px 16px;
+    border-radius: 3px;
+}
+
+
+
+
+
+/* HOME-NAVBAR */
+
+.navbar-home{
+    background: linear-gradient(rgba(57,57,69,0.8), rgba(57,57,69,0.8)), url(../images/desktop-home.jpg) no-repeat center;
+    background-size: 100%;
+    object-fit: cover;
+
+}
+
+
+/* HOME */
+
+.home{
+    justify-content: center;
+    color: #fff;
+}
+
+.home_box{
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    margin: 100px 0px;
+    text-align: center;
+}
+
+.home_box h1{
+    font-size: 40px;
+    
+}
+
+
+/* categories & search_box */
+
+
+.categories_search_box{
+    width: 80%;
+    background-color: #fff;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+
+.categories_search_box table{
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+
+
+
+.categories_search_box .container .item{
+    padding: 15px;
+    width: 28%;
+    border: none;
+    
+}
+
+.categories_search_box .container .item:nth-child(2){
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+}
+
+.categories_search_box .container .item:nth-child(4){
+    background-color: aqua;
+    border-radius: 0 5px 5px 0;
+}
+
+.categories_search_box .container .item:nth-child(1){
+    border-radius: 5px 0px 0px 5px;
+}
+
+.categories_search_box  .item:not(:last-child){
+    margin-right: 10px;
+}
+
+
+
+
+
+/* CATEGORIES */
+
+.home-categories{
+    gap: 60px;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    margin-top: 20px;
+    margin: 0px 50px;
+}
+
+
+.home-categories div{
+    text-align: center;
+    gap: 60px;
+    width: max-content;
+}
+
+
+/* ICONS */
+.home-categories [class*="fa-so"]{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    
+}
+
+
+
+
+
