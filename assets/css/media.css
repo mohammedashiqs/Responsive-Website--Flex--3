@@ -50,6 +50,82 @@ nav .menus li:last-child{
     gap: 30px;
 }
 
+.big_box{
+    flex-direction: column;
+}
+.buttons-field{
+    flex-direction: row;
+    width: auto;
+}
+
+.buttons-field .item{
+    flex-direction: column;
+    padding: 6px;
+    flex: 2;
+    border: 1px solid #000;
+    align-items: center;
+}
+
+.buttons-field .item p{
+    display: none;
+}
+
+.category [class*="fa-so"]{
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    
+}
+
+.description button{
+    padding: 10px 10px;
+    width: max-content;
+}
+
+.description{
+    width: 80%;
+    gap: 60px;
+    flex: 2;
+    align-items: center;
+}
+
+
+
+
+.card{
+    flex-direction: column;
+    align-items: center;
+    font-size: small;
+}
+
+.card div:last-child h3{
+    margin-bottom: 0px;
+}
+
+.card .star-rating{
+    gap: 10px;
+}
+
+.listing .card img{
+    width: 110%;
+    margin-left: 30px;
+    margin-bottom: 20px
+}
+
+.card div:last-child button{
+    margin-bottom: 20px;
+}
+
+.footer{
+    gap: 30px;
+    align-items: center;
+}
+
+
+
+
+
+
 }
 
 
@@ -76,6 +152,34 @@ nav .menus li:last-child{
 .navbar{
     flex-direction: column;
     align-items: center;
+}
+
+
+.card{
+    flex-direction: column;
+    align-items: center;
+}
+
+.card div:last-child h3{
+    margin-bottom: 0px;
+}
+
+.card .star-rating{
+    gap: 10px;
+}
+
+.listing .card img{
+    width: 110%;
+    margin-left: 30px;
+    margin-bottom: 20px
+}
+
+.card div:last-child button{
+    margin-bottom: 20px;
+}
+
+.footer{
+    gap: 30px;
 }
 
 
